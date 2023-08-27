@@ -2,7 +2,7 @@
  
 ## 💻 Sobre o Projeto
 
-Desenvolvimento de página web responsiva para cálculo de Gorjeta a ser oferecida para o garçom, conforme foi a satisfação com o atendimento recebido. 
+Desenvolvimento de página web responsiva para cálculo de gorjeta a ser oferecida para o garçom, conforme foi a satisfação com o atendimento recebido. 
 
 ## 🎨 Layout
 
