@@ -6,7 +6,7 @@ Desenvolvimento de página web responsiva com aplicação para cálculo de valor
 
 ## 🎨 Layout
 
-![image](https://github.com/FelipePetriw/Gerador_de_Senhas/blob/main/img/Apresenta%C3%A7%C3%A3o.png)
+![image](https://github.com/FelipePetriw/Calculadora_de_Gorjetas/blob/main/img/Apresenta%C3%A7%C3%A3o.png)
 
 
 ## 🛠 Tecnologias
