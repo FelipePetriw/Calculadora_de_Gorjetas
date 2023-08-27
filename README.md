@@ -2,7 +2,7 @@
  
 ## 💻 Sobre o Projeto
 
-Desenvolvimento de página web responsiva com aplicação para cálculo de valor de Gorjeta a ser oferecida para o estabelecimento, conforme foi a satisfação com o atendimento recebido. 
+Desenvolvimento de página web responsiva para cálculo de valor de Gorjeta a ser oferecida para o estabelecimento, conforme foi a satisfação com o atendimento recebido. 
 
 ## 🎨 Layout
 
