@@ -11,13 +11,14 @@ body {
 }
 
 .container {
-    height: 525px;
+    height: 600px;
     width: 360px;
     margin: 100px auto;
     background: #f7f7f7;
     box-shadow: 5px 5px 5px var(--secondy-color);
     border-radius: 20px;
 }
+
 
 h1 {
     background: var(--secondy-color);
@@ -72,6 +73,13 @@ h3 {
     height: 50px;
     color: #fff;
     font-size: 17px;
-    margin-top: 50px;
+    margin-top: 40px;
+    cursor: pointer;
 }
 
+#totalTip {
+    font-size: 20px;
+    margin-top: 5px;
+    text-align: center;
+    font-weight: bold;
+}
