@@ -5,6 +5,11 @@ function calculateTip(event) {
     let serviceQuality = document.getElementById('serviceQuality').value;
     let numOfPeople = document.getElementById('people').value;
 
+    if (serviceQuality == 0) {
+        alert('Favor informar como foi o seu atendimento.');
+        return;
+    } 
+
     if (numOfPeople == '' | numOfPeople <= 1) {
         numOfPeople = 1;
         document.getElementById('each').style.display = 'none';

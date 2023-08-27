@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/128/342/342344.png" type="image/x-icon">
     <title>Calculadora de Gorjetas</title>
+
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,8 +20,10 @@
 <body>
 
     <div class="container">
-        <div>
-            <h1>Calculadora de Gorjetas</h1>
+        <div class="cabecalho">
+            <img src="https://cdn-icons-png.flaticon.com/128/342/342344.png" alt="">
+            <h1>Calculadora de Gorjetas</h1>  
+            <img src="https://cdn-icons-png.flaticon.com/128/1995/1995555.png" alt="">         
         </div>
 
         <div>
@@ -29,7 +33,7 @@
                 </label>
 
                 <h4>
-                    R$ <input type="number" placeholder="100" name="bill" id="bill" class="formInput" required>
+                    R$ <input min='0' type="number" placeholder="100" name="bill" id="bill" class="formInput" required>
                 </h4>
 
                 <label for="serviceQuality">
@@ -38,13 +42,12 @@
 
                 <p>
                     <select name="serviceQuality" id="serviceQuality" class="formSelect" required>
-                        <option disable selected value="0">-- Escolha uma opção --</option>
+                        <option disabled selected value="0">-- Escolha uma opção --</option>
                         <option value="0.3">&#129321; Incrível - 30%</option>
                         <option value="0.2">&#129392; Muito Bom - 20%</option>
                         <option value="0.15">&#128521; Bom - 15%</option>
                         <option value="0.1">&#128528; Aceitável - 10%</option>
                         <option value="0.05">&#9785;&#65039; Ruim - 5%</option>
-                        <option value="0">&#128542; Péssimo - 0%</option>
                     </select>
                 </p>
 
@@ -53,7 +56,8 @@
                 </label>
 
                 <h4>
-                    <input type="number" placeholder="1" name="people" id="people" class="formInput" required> Pessoa(s).
+                    <input min='0' type="number" placeholder="1" name="people" id="people" class="formInput" required>
+                    Pessoa(s).
                 </h4>
 
                 <button type="submit" class="formSubmit">Calcular!</button>
@@ -63,9 +67,18 @@
 
         <div id="totalTip">
             Gorjeta Total:
-            R$<span id="tip">0.00</span><p id="each">Por Pessoa</p>
+            R$<span id="tip">0.00</span>
+            <p id="each">Por Pessoa</p>
+            <input type="button" value="Limpar Dados" onClick="window.location.reload()"> 
         </div>
     </div>
+
+    <footer>
+        <div class="rodape">
+            <h4>Desenvolvido por:</h4>
+            <a href="https://www.linkedin.com/feed/"><img src="./img/Felipe Petriw.png" alt=""></a>
+        </div>
+    </footer>
 
     <script type="text/javascript" src="scripts.js"></script>
 
