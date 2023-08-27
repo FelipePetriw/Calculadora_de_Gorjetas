@@ -1,2 +1,2 @@
 # Calculadora_de_Gorjetas
- Desenvolvimento de página web com aplicação para calculo de valor de Gorjeta a ser oferecida para o estabelecimento.
+ Desenvolvimento de página web com aplicação para calculo de valor de Gorjeta a ser oferecida para o estabelecimento, conforme foi a satisfação com o atendimento recebido.
